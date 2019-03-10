@@ -13,7 +13,7 @@ public class LoginController {
 	private Usuario usuario;
 	
 	public void entrar() {
-		if (getUsuario().getLogin().equals("joao") && getUsuario().getSenha().equals("123")) {
+		if (getUsuario().getLogin().equals("Lucas") && getUsuario().getSenha().equals("123")) {
 			System.out.println("Login válido");
 			Util.redirect("usuario.xhtml");
 		} else {
